@@ -1,0 +1,39 @@
+.sidebar{
+    flex: 1;
+    background-color: rgba(231, 239, 236, 0.349);
+    height: calc(100% - 50px);
+    position: sticky;
+    top: 50px;
+    padding-top: 10px;
+}
+
+.heading{
+    color: rgba(64, 71, 76, 0.47);
+}
+
+
+
+.sidebarIcon span{
+   font-size: 18px;
+}
+
+.sidebarIcon{
+    display: flex;
+    align-items: center;
+    width: 120px;
+   justify-content: space-between;
+   margin: 10px;
+   padding: 15px;
+   cursor: pointer;
+}
+
+.sidebarIcon:hover,.sidebarIcon.active{
+    background-color: rgb(154, 171, 165);
+    border-radius: 10px;
+    color: rgb(243, 244, 244);
+    transition-duration:1s ;
+}
+
+.heading{
+margin-left: 15px;
+}

@@ -1,0 +1,58 @@
+.widjetlg{    
+    flex: 2;
+    margin: 25px 50px;
+    padding: 30px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+ 
+}
+.topheading{
+    text-align: center;
+    background-color: rgb(240, 248, 255);
+    color: gray;
+}
+
+.tablerowhead{
+    text-align: left;
+}
+
+
+
+.table{
+    width: 100%;
+    border-spacing: 20px;
+}
+
+.data{
+    display: flex;
+    align-items: center;
+}
+
+
+.data img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.button{
+    width: 80px;
+    padding: 10px 15px;
+    border-style: none;
+    font-size: 14px;
+}
+
+.button.Pending{
+    background-color: rgb(253, 52, 223);
+}
+
+
+.button.Declined{
+    background-color: rgb(63, 137, 247);
+}
+
+.button.Approved{
+    background-color: rgb(107, 143, 131);
+}

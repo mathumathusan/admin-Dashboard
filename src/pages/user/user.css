@@ -1,0 +1,89 @@
+.user{
+    flex: 4;
+    padding: 20px;
+}
+.userTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userTopTitle{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.useredit{
+    width: 70px;
+    background-color: rgb(11, 81, 11);
+    padding: 10px 20px;
+    color:whitesmoke;
+    border-radius: 10px;
+    font-size: 18px;
+    border-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.usercenter{
+display: flex;
+margin-top: 20px;
+flex-wrap: wrap;
+}
+
+.usercenterleft{
+    flex:1;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+}
+.usercenterright{
+    flex: 2;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    margin-left: 20px;
+
+}
+
+
+.centertitle{
+    display: flex;
+  align-items: center;
+  gap: 20px;
+  
+}
+
+.centerhead h1{
+   font-size: 20px;
+}
+span{
+    font-size: 18px;
+     color: rgb(123, 113, 113);
+ }
+ .centercenter{
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
+.centertitleimg{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+ h1{
+
+    font-size: 20px;
+}
+
+ul{
+    list-style: none;
+}
+.icons{
+    gap: 25px;
+   
+    display: flex;
+    margin: 15px 10px;
+}
