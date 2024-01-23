@@ -34,6 +34,10 @@
 .head{
     font-size: 24px;
     font-weight: bold;
+    color: black;
+}
+.cardcenter span{
+    color: black;
 }
 
 .cardbottom{

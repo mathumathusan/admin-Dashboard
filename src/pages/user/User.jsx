@@ -8,6 +8,7 @@ import {
   PhoneAndroid,
   Publish,
 } from "@mui/icons-material";
+import { Hidden } from "@mui/material";
 
 function User() {
   return (
@@ -89,6 +90,7 @@ function User() {
            <div className="usercenterrighttop">
             <img className="usercenterrighttopprofile" src="https://media.licdn.com/dms/image/D5635AQG2g-s8ccQ2-A/profile-framedphoto-shrink_400_400/0/1694248383684?e=1706518800&v=beta&t=tNPyHCivWih8dLuhTdd1fVyMnjbWigJ_53HFv2iqdpU" alt="thasi" />
            <Publish className="usercenterrightprofileicon"/>
+           <input type="file" style={{display:"none"}} />
            </div>
            <div className="usercenterrightbottom">
             <button className="userrightbutton">
